@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Planwey &#8211; Event planner &amp; celebration html Template" />
+    <meta name="author" content="https://www.themetechmount.com/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sunday Soul Sante</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+    <!-- animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+
+    <!-- themify -->
+    <link rel="stylesheet" type="text/css" href="css/themify-icons.css" />
+
+    <!-- flaticon -->
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+
+    <!-- REVOLUTION LAYERS STYLES -->
+
+    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+
+    <!-- prettyphoto -->
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+
+    <!-- shortcodes -->
+    <link rel="stylesheet" type="text/css" href="css/shortcodes.css" />
+
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <!-- responsive -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+.new {
+    font-family: 'Lato', sans-serif;
+}
+
+.designation > a{
+        color: white;
+}
+.team-content-wrap {
+    padding-top: 70px;
+}
+
+.single-team {
+    position: relative;
+}
+
+.single-team .team-img a {
+    position: relative;
+    display: block;
+}
+
+.single-team .team-img a::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(249, 80, 0, 0) 35%, rgba(14, 14, 14, 0.89) 78%);
+    z-index: 0;
+    transition: all 0.5s linear;
+}
+
+.single-team .team-content {
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    z-index: 5;
+    transition: all 0.3s linear;
+}
+
+.single-team .team-content .name {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.single-team .team-content .name a {
+    color: #ffffff;
+}
+
+.single-team .team-content .name::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 20px;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+    background: linear-gradient(-180deg, #5ea7ec 0%, #e83e8c 100%);
+    z-index: -1;
+    transition: all 0.3s linear;
+}
+
+.single-team .team-content .designation {
+    font-size: 12px;
+    line-height: 24px;
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.single-team .team-content .team-social {
+    opacity: 0;
+    visibility: hidden;
+    margin-bottom: -25px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s linear;
+}
+
+.single-team .team-content .team-social .social li {
+    display: inline-block;
+}
+
+.single-team .team-content .team-social .social li+li {
+    margin-left: 10px;
+}
+
+.single-team .team-content .team-social .social li a {
+    font-size: 14px;
+    transform: translate3d(0, 0, 0);
+    color: #ffffff;
+    transition: all 0.3s linear;
+}
+
+.single-team:hover .team-content {
+    bottom: 90px;
+}
+
+.single-team:hover .team-content .name::before {
+    height: 145px;
+    width: 80px;
+    transform: translateY(-35%);
+}
+
+.single-team:hover .team-content .team-social {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 10px;
+}
+
+.single-team:hover .team-content .team-social .social li a:hover {
+    transform: translateY(-5px);
+}
+
+.team-active .swiper-pagination {
+    position: relative;
+    margin-top: 50px;
+}
+
+.team-active .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 7px;
+}
+
+.techwix-team-section-02 {
+    background: #010f31;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.techwix-team-section-03 .team-wrap {
+    margin-top: -30px;
+}
+
+.techwix-team-section-03 .team-wrap .single-team {
+    margin-top: 30px;
+}
+
+.techwix-team-section-03 .team-wrap .single-team .team-img a img {
+    width: 100%;
+}
+
+.about-content-wrap {
+    margin-left: 14px;
+    margin-top: 8px;
+}
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <!--page start-->
+    <div class="page">
+
+
+        <!--header start-->
+        <header id="masthead" class="header ttm-header-style-classic-overlay">
+            <div class="ttm-header-wrap">
+                <!-- ttm-stickable-header-w -->.
+                <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
+                    <div id="site-header-menu" class="site-header-menu">
+                        <div class="site-header-menu-inner ttm-stickable-header">
+                            <div class="container-fluid">
+
+                                <!-- site-branding -->
+                                <div class="site-branding">
+                                    <a class="home-link" href="index.html" title="Soul Sante" rel="home">
+                                        <img id="logo-img" class="img-center" src="images/favicon.png" alt="logo-img">
+                                    </a>
+                                </div><!-- site-branding end -->
+                                <!-- header-icins -->
+                                <div class="ttm-header-icons">
+                                    <span class="ttm-header-icon ttm-header-cart-link">
+
+                                    </span>
+
+                                </div><!-- header-icons end -->
+                                <!--site-navigation -->
+                                <div id="site-navigation" class="site-navigation">
+
+                                    <div class="ttm-menu-toggle he">
+
+                                        <input type="checkbox" id="menu-toggle-form" />
+                                        <label for="menu-toggle-form" class="ttm-menu-toggle-block">
+                                            <i class="fa fa-bars"></i>
+                                        </label>
+                                        <hr>
+                                    </div>
+                                    <nav id="menu" class="menu">
+                                        <ul class="dropdown">
+
+                                            <li class="active"><a href="index.html">Home</a></li>
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="our-event.html">Events</a></li>
+                                            <li><a href="cities.html">cities</a>
+                                                <ul>
+                                                    <li><a href="cities.html">Bangalore</a></li>
+                                                    <li><a href="cities.html">Hyderabad</a></li>
+                                                    <li><a href="cities.html">Pune</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="news.html">In The News</a></li>
+                                            <li><a href="blog-grid.html">Blogs</a></li>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="contact-us.html">Contact Us</a></li>
+                                            <li><a href="our-event.html"><span>Christmas
+                                                        Event</span></a></li>
+
+                                        </ul>
+                                    </nav>
+                                </div><!-- site-navigation end-->
+                                <hr style="background-color: rgba(230, 96, 212, 0.427);height: .6px;">
+                                <span style="float: right; margin-bottom: 10px;">
+                                    Follow us: &nbsp;&nbsp;
+                                    <a href="www.linkedin.com" target="_blank"><img src="images/iconss/head (1).png"
+                                            alt=""></a>
+                                    <a href="www.facebook.com" target="_blank"><img src="images/iconss/head (5).png"
+                                            alt=""></a>
+                                    <a href="www.instagram.com" target="_blank"><img src="images/iconss/head (2).png"
+                                            alt=""></a>
+                                    <a href="www.youtube.com" target="_blank"><img src="images/iconss/head (4).png"
+                                            alt=""></a>
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!--rev-slider end-->
+        </header>
+
+        <!--header end-->
+        <div class="ttm-page-title-row text-center"
+            style="background-image:url(https://parvamconsultech.com/soul_santhe/v5/images/banner/about-us-banner.jpg);background-size:cover;filter:grayscale(60%);">
+            <div class="title-box text-center">
+                <div class="container-fluid">
+                    <div class="page-title-heading">
+                        <h1 class="title" style="color: aliceblue;">ABOUT US</h1>
+                        <p class="ttm-textcolor-white">We Do What We Love</p>
+                    </div>
+                    <div class="breadcrumb-wrapper">
+                        <div class="container">
+                            <span><a title="Homepage" href="index.html"><i
+                                        class="fa fa-home"></i>&nbsp;&nbsp;Home</a></span>
+                            <span class="ttm-bread-sep ttm-textcolor-white"> &nbsp; ⁄ &nbsp;</span>
+                            <span class="ttm-textcolor-white">About Us</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--header end-->
+        <div class="site-main">
+            
+
+            <!-- About Start -->
+            <div class="section techwix-about-section-07">
+
+                <div class="container my-5">
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <div class=" section-title clearfix">
+        
+                                <h2 class="title">About The Founders</h2>
+                                <div class="title-img"><img src="images/ds-1.png" alt="underline-img"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-justify">
+                        <div class="conatiner p-2 row">
+                            <div class="col-lg-12"><h1 class="h2 mb-4" style="font-weight: 600;">Asha Rao</h1> <hr class="grey"></div>
+                            <div class="col-md-7 p-4 p-sm-5 reveal">
+                               
+                               
+                               <div class="text text-justify">
+                               <p>Meet Asha Rao, the founder of Sunday Soul Sante.</p> <p> Asha's unwavering passion for fabric and
+                                arts has driven her to constantly regenerate her ideas, even in the face of setbacks.
+                                </p>
+                                <p> Her reward
+                                    is the success of Soul Sante. Asha Rao's foresight led to the birth of Sunday Soul Sante, a
+                                    15-year-old story rooted in the belief that aspiring artists need a platform to succeed.</p>
+                            </div>
+                               
+                            </div>
+
+                            <div class="col-md-4 p-2 show">
+                               <img src="images/gallery/asha-rao.jpg" class="img-fluid p-2" alt="">
+                            </div>
+
+                            
+                       </div>
+                        <div class="conatiner p-2 row">
+                            <div class="col-lg-12"><h1 class="h2 mb-4" style="font-weight: 600;">Vishal Rao</h1><hr class="grey"></div>
+                            <div class="col-md-4 p-2 text-center showx">
+                                <img src="images/gallery/vishal.jpg" class="img-fluid p-2"  alt="">
+                             </div>
+                             <div class="col-md-7 p-4 p-sm-5 reveal">
+                                
+                                
+                                <div class="text text-justify">
+                                    <p>Vishal Rao, an integral part of Sunday Soul Sante from its inception, brings unparalleled
+                                        expertise in execution and reasoning.</p>
+                                         <p>With his vibrant personality and dedication, he ensures
+                                            smooth operations of this grand event. </p>
+                                            <p>Vishal is our go-to person for everything, embodying a
+                                                happy-go-lucky, people-oriented approach. In his free time, he enjoys playing golf, showcasing
+                                                his patience and commitment to excellence.</p>
+
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="conatiner p-2 row">
+                            <div class="col-lg-12"><h1 class="h2 mb-4" style="font-weight: 600;">Harish Rao</h1>
+                                <hr class="grey"></div>
+                            <div class="col-md-7 p-4 p-sm-5 reveal">
+                               
+                               <div class="text text-justify">
+                                <p>
+                                    Harish Rao, with over 15 years of experience in Sales & Marketing and
+                                    Business Development, is a driving force behind the growth of brands.</p>
+    
+                                <p> As the driving force behind Sunday Soul Sante's marketing, sponsorships, and alliances, Harish has established partnerships with renowned brands such as United Breweries, Times Of India, TVS, and Amazon.
+                                    
+                                    </p>
+    
+                                <p> He focuses on creating long-term partnerships with each sponsor while coordinating promotional campaigns with multiple brands. He believes that the journey is as important as the destination in both life and business.
+                                    
+                                    
+                                </p>
+                            </div>
+                               
+                            </div>
+
+                            <div class="col-md-4 p-2 text-center show">
+                               <img src="images/gallery/harry.jpg" class="img-fluid p-2"  alt="">
+                            </div>
+                       </div>
+                       
+                        <div class="conatiner p-2 row">
+                            <div class="col-lg-12"><h1 class="h2 mb-4" style="font-weight: 600;">Karan Rao</h1>
+                                <hr class="grey"></div>
+                            <div class="col-md-4 p-2 text-center showx">
+                                <img src="images/gallery/karan.jpg" class="img-fluid p-2"  alt="">
+                             </div>
+                             <div class="col-md-7 p-4 p-sm-5 reveal">
+                                
+                                <div class="text text-justify">
+                                   <p>
+                                    Karan Rao, a film producer with over five years of experience, brings essential impetus to the
+                                    Sunday Soul Sante team.</p>  <p>With a keen eye for detail and a passion for providing unique festival
+                                    experiences, Karan handles the creative conceptualization, logistical planning, and execution for all Funday Events properties.
+                                    
+                                   </p> 
+
+                                    <p>
+                                        He is a staunch supporter of the Indian independent music scene,
+ensuring its prominence at Sunday Soul Sante. Karan's enthusiasm for fitness and sports
+translates into a healthy and energetic atmosphere within the entire SSS team.
+                                    </p>
+                                </div>
+                             </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                <hr class="line">
+                <br>
+                <!--service-section.style2 start-->
+                <section class="ttm-row service-section style2 bg-layer bg-layer-equal-height break-991-colum clearfix">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5 showx">
+                                <!-- col-bg-img-three -->
+                                <div
+                                    class="col-bg-img-three ttm-col-bgimage-yes ttm-bg ttm-left-span res-991-mt-0 mt_60">
+                                    <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
+                                    <div class="layer-content">
+                                    </div>
+                                </div><!-- col-bg-img-three end-->
+                                <img src="images/bg-image/col-bgimage-3.jpg" class="ttm-equal-height-image"
+                                    alt="bg-image">
+                            </div>
+                            <div class="col-lg-7 col-md-12">
+                                <!-- about-content -->
+                                <div
+                                    class="about-content ttm-bg ttm-col-bgcolor-yes ttm-right-span ttm-bgcolor-skincolor padding-15">
+                                    <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
+                                    <div class="layer-content">
+                                        <!-- section title -->
+                                        <div class="section-title with-desc clearfix reveal">
+                                            <div class="title-header">
+
+                                                <h2 class="title show">About Us</h2>
+                                            </div>
+                                            <h3> India's Largest Flea Market Celebrating Contemporary Arts and Crafts
+                                            </h3>
+                                            <p class="new"><i class="ti ti-check-box ttm-textcolor-skincolor"></i>
+                                                Sunday
+                                                Soul Sante, India's largest flea market situated in Bangalore since
+                                                2010, is
+                                                a vibrant celebration of contemporary arts and crafts. <br><br><i
+                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> It showcases an
+                                                extensive collection of handmade products ranging from clothing and
+                                                accessories to jewelry and home decor. <br><br><i
+                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> Beyond
+                                                shopping,
+                                                the event offers live music, performances, and delectable food options,
+                                                making it an ideal outing for friends and family. <br><br>
+
+                                                <i class="ti ti-check-box ttm-textcolor-skincolor"></i> This market is a
+                                                unique opportunity to break away from the ordinary and be inspired by
+                                                the
+                                                inventive ideas of talented artists. <br> <br><i
+                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> From clothing
+                                                to
+                                                accessories, jewelry to paintings, visitors can hunt for exceptional
+                                                treasures at remarkable prices. <br><br><i
+                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> The event's
+                                                lively
+                                                atmosphere is further enriched by live shows and performances, ensuring
+                                                a
+                                                captivating experience for all the senses. <br><br><i
+                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> Sunday Soul
+                                                Sante
+                                                is a must-visit for those seeking a blend of creativity, entertainment,
+                                                and
+                                                culinary delights – an extraordinary escapade that shouldn't be missed.
+                                            </p>
+
+
+
+                                        </div><!-- section title end -->
+
+                                    </div>
+                                </div><!-- about-content end-->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--service-section.style2 end-->
+
+
+
+
+
+
+
+            </div><!-- site-main end -->
+
+            <!--footer-->
+            <footer class="footer bg-white p-4">
+                <div class="container-fluid">
+                    <hr class="line">
+                    <div class="main-foot">
+                        <div class="container">
+                            <table class="table table-borderless" id="table-custom">
+                                <thead>
+                                    <tr style="border: none;">
+                                        <th scope="col">
+                                            <h2 class="foothead"><a style="text-decoration: none;"
+                                                    href="about-us.html">About us</a></h2>
+                                        </th>
+                                        <th scope="col">
+                                            <h2 class="foothead"><a style="text-decoration: none;"
+                                                    href="our-event.html">Events</a></h2>
+                                        </th>
+                                        <th scope="col">
+                                            <h2 class="foothead"><a style="text-decoration: none;"
+                                                    href="cities.html">Cities</a></h2>
+                                        </th>
+                                        <th scope="col">
+                                            <h2 class="foothead"><a style="text-decoration: none;" href="news.html">In
+                                                    The
+                                                    News</a></h2>
+                                        </th>
+                                        <th scope="col">
+                                            <h2 class="foothead"><a style="text-decoration: none;"
+                                                    href="blog-grid.html">Blogs</a></h2>
+                                        </th>
+                                        <th scope="col">
+                                            <h2 class="foothead"><a style="text-decoration: none;"
+                                                    href="gallery.html">Gallery</a></h2>
+                                        </th>
+                                        <th scope="col">
+                                            <h2 class="foothead"><a style="text-decoration: none;"
+                                                    href="blog-grid.html">Contact Us</a></h2>
+                                        </th>
+                                    </tr>
+                                </thead>
+
+                            </table>
+
+                        </div>
+                    </div>
+
+                    <div class="foot-second">
+                        <div class="row text-center">
+                            <div class="col-md-12">
+                                <a href="about-us.html" style="text-decoration: none;"><h5>About US</h5></a>
+                            </div>
+                            <div class="col-sm-6">
+                                <h5><a id="events-link" href="our-event.html" style="text-decoration: none;">Events</a></h5>
+                                
+                            </div>
+                            <div class="col-sm-6">
+                                <h5><a id="partnership-link" href="cities.html" style="text-decoration: none;">Cities</a></h5>
+                                
+                            </div>
+                            <div class="col-sm-6">
+                                <h5><a  id="community-link" href="news.html" style="text-decoration: none;">In The News</a></h5>
+                                
+                            </div>
+                            <div class="col-sm-6">
+                                <h5><a href="blog-grid.html" id="company-link" style="text-decoration: none;">Blogs</a></h5>
+                                
+                            </div>
+                            <div class="col-sm-6">
+                                <h5><a href="gallery.html" id="company-link" style="text-decoration: none;">Gallery</a></h5>
+                                
+                            </div>
+                            <div class="col-sm-6">
+                                <h5><a href="contact-us.html" id="company-link" style="text-decoration: none;">Contact Us</a></h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--footer-END-->
+
+
+
+        </div><!-- page end -->
+
+        <!--back-to-top start-->
+        <a id="totop" href="#top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+        <!--back-to-top end-->
+
+
+
+        <!-- Javascript -->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.js"></script>
+        <script src="js/jquery-waypoints.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/numinate.min6959.js?ver=4.9.3"></script>
+        <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
