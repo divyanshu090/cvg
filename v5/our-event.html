@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themetechmount.com/html/planwey/our-event.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jul 2023 06:00:51 GMT -->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,195 +48,221 @@
 
     <!-- responsive -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-<style>
-    .bp-card {
-  position: relative;
-}
-.bp-card .bp-card_label {
-  position: absolute;
-  top: 30px;
-  left: 0;
-  bottom: 30px;
-  width: 130px;
-  background: white;
-  cursor: pointer;
-}
-.bp-card .bp-card_label::before {
-  content: "";
-  background-color: transparent;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/372262/ticket-top.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 130px;
-  height: 100px;
-  position: absolute;
-  top: -30px;
-  left: 0;
-}
-.bp-card .bp-card_label::after {
-  content: "";
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/372262/ticket-bottom.svg");
-  background-size: contain;
-  background-position: bottom left;
-  background-repeat: no-repeat;
-  width: 130px;
-  height: 100px;
-  position: absolute;
-  bottom: -30px;
-  left: 0;
-}
-.bp-card .bp-card_label .bd-border_dotted {
-  content: "";
-  width: 0px;
-  border-right: 5px dashed #4444449c;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 40px;
-}
-.bp-card .bp-card_label .bd-border_solid {
-  content: "";
-  width: 3px;
-  border-radius: 3px;
-  background: #FFAF96;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: calc(130px/3.1 );
-}
-.bp-card .bp-card_content {
-  position: relative;
-  background: white;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  width: calc(100% - 130px);
-  margin-left: calc(130px - 1px);
-  padding: 35px;
-}
-.bp-card .bp-card_content h4 {
-  font-size: 40px;
-  margin: 0 140px 0 0;
-}
-.bp-card .bp-card_content p.secondary {
-  color: #FFAF96;
-  margin: 0;
-  padding-top: 10px;
-}
-.bp-card .bp-card_content ul {
-  list-style: none;
-  margin: 50px 0 0 0;
-  padding: 0;
-}
-.bp-card .bp-card_content ul span {
-  display: block;
-  color: #A8A8A8;
-}
-.bp-card .bp-card_content ul li {
-  padding: 0;
-  display: inline-block;
-  padding-right: 30px;
-}
-.bp-card .bp-card_content a.price {
-  color: #FFAF96;
-  text-decoration: none;
-  position: absolute;
-  top: 35px;
-  right: 35px;
-  font-size: 36px;
-  background: rgba(255, 175, 150, 0.1);
-  padding: 10px;
-  border-radius: 3px;
-}
+    <style>
+        .bp-card {
+            position: relative;
+        }
 
-@media only screen and (max-width: 600px) {
-  .bp-card {
-    position: relative;
-  }
-  .bp-card .bp-card_label {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    height: 120px;
-    position: relative;
-  }
-  .bp-card .bp-card_label:after, .bp-card .bp-card_label:before {
-    transform: rotate(90deg);
-    transform-origin: top left;
-    width: 126px;
-    top: -2px;
-  }
-  .bp-card .bp-card_label:after {
-    left: 80px;
-    right: auto;
-  }
-  .bp-card .bp-card_label:before {
-    left: auto;
-    right: -146px;
-  }
-  .bp-card .bp-card_label .bd-border_dotted {
-    width: 100%;
-    border-top: 4px dashed #000000;
-    border-right: none;
-    height: 4px;
-    top: 92px;
-    left: 0;
-  }
-  .bp-card .bp-card_label .bd-border_solid {
-    width: 80%;
-    background: #FFAF96;
-    height: 3px;
-    top: 45px;
-    left: 10%;
-  }
-  .bp-card .bp-card_content {
-    margin-left: 0;
-    width: 100%;
-    padding: 3% 5% 5% 5%;
-  }
-  .bp-card .bp-card_content h4 {
-    font-size: 32px;
-    margin: 0;
-  }
-  .bp-card .bp-card_content ul {
-    list-style: none;
-    margin: 20px 0 0 0;
-    padding: 0;
-  }
-  .bp-card .bp-card_content ul span {
-    display: block;
-    color: #A8A8A8;
-  }
-  .bp-card .bp-card_content ul li {
-    padding: 0;
-    display: inline-block;
-    width: 100%;
-    padding-right: 30px;
-    margin-bottom: 5px;
-  }
-  .bp-card .bp-card_content a.price {
-    position: relative;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    top: auto;
-    right: auto;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .bp-card .bp-card_content a.price:before {
-    content: "";
-    background: url("http://imgh.us/i-arrow.svg") center no-repeat;
-    background-size: contain;
-    position: absolute;
-    right: 22px;
-    top: 22px;
-    width: 20px;
-    height: 20px;
-  }
-}
-</style>
+        .bp-card .bp-card_label {
+            position: absolute;
+            top: 30px;
+            left: 0;
+            bottom: 30px;
+            width: 130px;
+            background: white;
+            cursor: pointer;
+        }
+
+        .bp-card .bp-card_label::before {
+            content: "";
+            background-color: transparent;
+            background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/372262/ticket-top.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 130px;
+            height: 100px;
+            position: absolute;
+            top: -30px;
+            left: 0;
+        }
+
+        .bp-card .bp-card_label::after {
+            content: "";
+            background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/372262/ticket-bottom.svg");
+            background-size: contain;
+            background-position: bottom left;
+            background-repeat: no-repeat;
+            width: 130px;
+            height: 100px;
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+        }
+
+        .bp-card .bp-card_label .bd-border_dotted {
+            content: "";
+            width: 0px;
+            border-right: 5px dashed #4444449c;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 40px;
+        }
+
+        .bp-card .bp-card_label .bd-border_solid {
+            content: "";
+            width: 3px;
+            border-radius: 3px;
+            background: #FFAF96;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: calc(130px/3.1);
+        }
+
+        .bp-card .bp-card_content {
+            position: relative;
+            background: white;
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            width: calc(100% - 130px);
+            margin-left: calc(130px - 1px);
+            padding: 35px;
+        }
+
+        .bp-card .bp-card_content h4 {
+            font-size: 40px;
+            margin: 0 140px 0 0;
+        }
+
+        .bp-card .bp-card_content p.secondary {
+            color: #FFAF96;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+        .bp-card .bp-card_content ul {
+            list-style: none;
+            margin: 50px 0 0 0;
+            padding: 0;
+        }
+
+        .bp-card .bp-card_content ul span {
+            display: block;
+            color: #A8A8A8;
+        }
+
+        .bp-card .bp-card_content ul li {
+            padding: 0;
+            display: inline-block;
+            padding-right: 30px;
+        }
+
+        .bp-card .bp-card_content a.price {
+            color: #FFAF96;
+            text-decoration: none;
+            position: absolute;
+            top: 35px;
+            right: 35px;
+            font-size: 36px;
+            background: rgba(255, 175, 150, 0.1);
+            padding: 10px;
+            border-radius: 3px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .bp-card {
+                position: relative;
+            }
+
+            .bp-card .bp-card_label {
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: calc(100% - 40px);
+                margin-left: 20px;
+                height: 120px;
+                position: relative;
+            }
+
+            .bp-card .bp-card_label:after,
+            .bp-card .bp-card_label:before {
+                transform: rotate(90deg);
+                transform-origin: top left;
+                width: 126px;
+                top: -2px;
+            }
+
+            .bp-card .bp-card_label:after {
+                left: 80px;
+                right: auto;
+            }
+
+            .bp-card .bp-card_label:before {
+                left: auto;
+                right: -146px;
+            }
+
+            .bp-card .bp-card_label .bd-border_dotted {
+                width: 100%;
+                border-top: 4px dashed #000000;
+                border-right: none;
+                height: 4px;
+                top: 92px;
+                left: 0;
+            }
+
+            .bp-card .bp-card_label .bd-border_solid {
+                width: 80%;
+                background: #FFAF96;
+                height: 3px;
+                top: 45px;
+                left: 10%;
+            }
+
+            .bp-card .bp-card_content {
+                margin-left: 0;
+                width: 100%;
+                padding: 3% 5% 5% 5%;
+            }
+
+            .bp-card .bp-card_content h4 {
+                font-size: 32px;
+                margin: 0;
+            }
+
+            .bp-card .bp-card_content ul {
+                list-style: none;
+                margin: 20px 0 0 0;
+                padding: 0;
+            }
+
+            .bp-card .bp-card_content ul span {
+                display: block;
+                color: #A8A8A8;
+            }
+
+            .bp-card .bp-card_content ul li {
+                padding: 0;
+                display: inline-block;
+                width: 100%;
+                padding-right: 30px;
+                margin-bottom: 5px;
+            }
+
+            .bp-card .bp-card_content a.price {
+                position: relative;
+                width: 100%;
+                display: block;
+                margin: 0 auto;
+                top: auto;
+                right: auto;
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .bp-card .bp-card_content a.price:before {
+                content: "";
+                background: url("http://imgh.us/i-arrow.svg") center no-repeat;
+                background-size: contain;
+                position: absolute;
+                right: 22px;
+                top: 22px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    </style>
 
 
 </head>
@@ -254,7 +278,7 @@
                 <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
                     <div id="site-header-menu" class="site-header-menu">
                         <div class="site-header-menu-inner ttm-stickable-header">
-                            
+
                             <div class="container-fluid">
 
                                 <!-- site-branding -->
@@ -272,7 +296,7 @@
                                 </div><!-- header-icons end -->
                                 <!--site-navigation -->
                                 <div id="site-navigation" class="site-navigation">
-                                    
+
                                     <div class="ttm-menu-toggle he">
 
                                         <input type="checkbox" id="menu-toggle-form" />
@@ -355,183 +379,147 @@
 
         <!--site-main-->
         <div class="site-main">
-            
+            <br><br>
+            <div class="col-lg-12">
+                <div class="tet text-black p-1 ttm-bgcolor-grey">
+                    <h2>Upcoming Events</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 mb-30">
+                            <!-- featured-imagebox -->
+                            <div class="featured-imagebox ttm-box-view-top-image featured-imagebox-post-details">
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="images/banner/13.png" alt="img">
+                                </div>
+                                <div class="featured-bottom-content text-left position-relative">
+                                    <div class="ttm-box-post-date shape-rounded ttm-bgcolor-skincolor">
+                                        <span class="ttm-entry-date">
+                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">22<span
+                                                    class="entry-month entry-year">Jan</span></time>
+                                        </span>
+                                    </div>
+                                    <div class="featured-title">
+
+                                        <h5><a href="event-details.html">Bohemian Rhapsody</a></h5>
+                                    </div>
+
+                                    <div class="post-meta">
+                                        <span class="ttm-meta-line">
+                                            <i class="fa fa-map-marker"></i>
+                                            Venue: Jayamahal Palace, Bengaluru
+                                        </span>
+                                    </div>
+                                    <div class="post-desc-footer">
+                                        <a class="ttm-btn btn-inline ttm-icon-btn-right ttm-btncolor-black"
+                                            href="event-details.html">See More<i class="ti ti-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div><!-- featured-imagebox -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <section class="ttm-row upcoming-event-section">
                 <div class="col-lg-12">
                     <div class="tet text-black p-1 ttm-bgcolor-grey">
                         <h2>Previous Events</h2>
                     </div>
                 </div>
-               
-                <div class="container-fluid mt-10 m-2" >
-                    <div class="container-fluid bg-light p-1">
-	
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="bp-card" data-clickthrough="link">
-                                    <div class="bp-card_label">
-                                        <div class="bd-border_solid"></div>
-                                        <div class="bd-border_dotted"></div>
+                <br><br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 mb-30">
+                            <!-- featured-imagebox -->
+                            <div class="featured-imagebox ttm-box-view-top-image featured-imagebox-post-details">
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="images/banner/13.png" alt="img">
+                                </div>
+                                <div class="featured-bottom-content text-left position-relative">
+                                    <div class="ttm-box-post-date shape-rounded ttm-bgcolor-skincolor">
+                                        <span class="ttm-entry-date">
+                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">15<span
+                                                    class="entry-month entry-year">Aug</span></time>
+                                        </span>
                                     </div>
-                                    <div class="bp-card_content">
-                                        <img src="images/banner/13.png" alt="" width="100%" >
-                                        <div class="row">
-                                            <div class="col-8"><p class="secondary">AUG 15th 2023</p>
-                                                <h4>Tropical Summer Event   </h4> <a href="event-details4.html" class="btn-primary p-1 rounded rounded-1 m-">
-                                                    Buy now
-                                                </a> </div>
-                                            <div class="col-4">
-                                                <ul>
-                                                        <li>
-                                                           <i class="fa fa-map-marker"></i> Venue: Bangalore
-                                                        </li>
-                                                        <li>
-                                                          <i class="fa fa-clock-o" ></i> 10:00AM
-                                                        </li>
-            
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
-                                        
-                                        
-                                        
+                                    <div class="featured-title">
+
+                                        <h5><a href="event-details.html">Tropical Summer Event </a></h5>
+                                    </div>
+
+                                    <div class="post-meta">
+                                        <span class="ttm-meta-line">
+                                            <i class="fa fa-map-marker"></i>
+                                            Venue: Bangalore
+                                        </span>
+                                    </div>
+                                    <div class="post-desc-footer">
+                                        <a class="ttm-btn btn-inline ttm-icon-btn-right ttm-btncolor-black"
+                                            href="event-details.html">See More<i class="ti ti-arrow-right"></i></a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="bp-card" data-clickthrough="link">
-                                    <div class="bp-card_label">
-                                        <div class="bd-border_solid"></div>
-                                        <div class="bd-border_dotted"></div>
-                                    </div>
-                                    <div class="bp-card_content">
-                                        <img src="images/banner/12.png" alt="" width="100%" >
-                                        <div class="row">
-                                            <div class="col-8"><p class="secondary">AUG 15th 2023</p>
-                                                <h4>Tropical Summer Event   </h4> <a href="event-details3.html" class="btn-primary p-1 rounded rounded-1 m-">
-                                                    Buy now
-                                                </a> </div>
-                                            <div class="col-4">
-                                                <ul>
-                                                        <li>
-                                                           <i class="fa fa-map-marker"></i> Venue: Bangalore
-                                                        </li>
-                                                        <li>
-                                                          <i class="fa fa-clock-o" ></i> 10:00AM
-                                                        </li>
-            
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
-                                        
-                                        
-                                        
-                                    </div>
-                                </div>
-                            </div>
+                            </div><!-- featured-imagebox -->
                         </div>
-
-
-
-                        
-                        
-                    </div>
-
-                    
-                </div>
-                <div class="container-fluid mt-10 m-2" >
-                    <div class="container-fluid bg-light p-1">
-	
-                        <div class="row">
-                            
-                            <div class="col-lg-8">
-                                <div class="bp-card" data-clickthrough="link">
-                                    <div class="bp-card_label">
-                                        <div class="bd-border_solid"></div>
-                                        <div class="bd-border_dotted"></div>
+                        <div class="col-md-6 col-lg-4 mb-30">
+                            <!-- featured-imagebox -->
+                            <div class="featured-imagebox ttm-box-view-top-image featured-imagebox-post-details">
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="images/banner/bannerkajolI9rNV.png" alt="img">
+                                </div>
+                                <div class="featured-bottom-content text-left position-relative">
+                                    <div class="ttm-box-post-date shape-rounded ttm-bgcolor-skincolor">
+                                        <span class="ttm-entry-date">
+                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">18<span
+                                                    class="entry-month entry-year">Dec</span></time>
+                                        </span>
                                     </div>
-                                    <div class="bp-card_content">
-                                        <img src="images/banner/12.png" alt="" width="100%" >
-                                        <div class="row">
-                                            <div class="col-8"><p class="secondary">AUG 15th 2023</p>
-                                                <h4>Tropical Summer Event   </h4> <a href="event-details.html" class="btn-primary p-1 rounded rounded-1 m-">
-                                                    Buy now
-                                                </a> </div>
-                                            <div class="col-4">
-                                                <ul>
-                                                        <li>
-                                                           <i class="fa fa-map-marker"></i> Venue: Bangalore
-                                                        </li>
-                                                        <li>
-                                                          <i class="fa fa-clock-o" ></i> 10:00AM
-                                                        </li>
-            
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
-                                        
-                                        
-                                        
+                                    <div class="featured-title">
+                                        <h5><a href="event-details.html">Christmas Edition, December</a></h5>
+                                    </div>
+
+                                    <div class="post-meta">
+                                        <span class="ttm-meta-line">
+                                            <i class="fa fa-map-marker"></i>
+                                            Ecoworld, Bellandur, Bangalore
+                                        </span>
+                                    </div>
+                                    <div class="post-desc-footer">
+                                        <a class="ttm-btn btn-inline ttm-icon-btn-right ttm-btncolor-black"
+                                            href="event-details.html">See More<i class="ti ti-arrow-right"></i></a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-4">
-                                
-                            </div>
+                            </div><!-- featured-imagebox -->
                         </div>
-                        
-                    </div>
-
-                </div>
-                <div class="container-fluid mt-10 m-2" >
-                    <div class="container-fluid bg-light p-1">
-	
-                        <div class="row">
-                            <div class="col-lg-4">
-                                
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="bp-card" data-clickthrough="link">
-                                    <div class="bp-card_label">
-                                        <div class="bd-border_solid"></div>
-                                        <div class="bd-border_dotted"></div>
+                        <div class="col-md-6 col-lg-4 mb-30">
+                            <!-- featured-imagebox -->
+                            <div class="featured-imagebox ttm-box-view-top-image featured-imagebox-post-details">
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="images/banner/eventKMC3X4UawW.jpg" alt="img">
+                                </div>
+                                <div class="featured-bottom-content text-left position-relative">
+                                    <div class="ttm-box-post-date shape-rounded ttm-bgcolor-skincolor">
+                                        <span class="ttm-entry-date">
+                                            <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">22<span
+                                                    class="entry-month entry-year">Feb</span></time>
+                                        </span>
                                     </div>
-                                    <div class="bp-card_content">
-                                        <img src="images/banner/13.png" alt="" width="100%" >
-                                        <div class="row">
-                                            <div class="col-8"><p class="secondary">AUG 15th 2023</p>
-                                                <h4>Tropical Summer Event   </h4> <a href="event-details2.html" class="btn-primary p-1 rounded rounded-1 m-">
-                                                    Buy now
-                                                </a> </div>
-                                            <div class="col-4">
-                                                <ul>
-                                                        <li>
-                                                           <i class="fa fa-map-marker"></i> Venue: Bangalore
-                                                        </li>
-                                                        <li>
-                                                          <i class="fa fa-clock-o" ></i> 10:00AM
-                                                        </li>
-            
-                                                </ul>
-                                            </div>
-                                            
-                                        </div>
-                                        
-                                        
-                                        
+                                    <div class="featured-title">
+                                        <h5><a href="event-details.html">VH1 Supersonic</a></h5>
+                                    </div>
+
+                                    <div class="post-meta">
+                                        <span class="ttm-meta-line">
+                                            <i class="fa fa-map-marker"></i>
+                                            KoreGaon Park, Pune
+                                        </span>
+                                    </div>
+                                    <div class="post-desc-footer">
+                                        <a class="ttm-btn btn-inline ttm-icon-btn-right ttm-btncolor-black"
+                                            href="event-details.html">See More<i class="ti ti-arrow-right"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div><!-- featured-imagebox -->
                         </div>
-                        
-                    </div>
-
-                </div>
-                
-                </div>
             </section>
 
         </div><!-- site-main end -->

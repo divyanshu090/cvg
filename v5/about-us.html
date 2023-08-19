@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sunday Soul Sante</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
     <!-- bootstrap -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
@@ -54,159 +54,156 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
-.new {
-    font-family: 'Lato', sans-serif;
-}
+        .new {
+            font-family: 'Lato', sans-serif;
+        }
 
-.designation > a{
-        color: white;
-}
-.team-content-wrap {
-    padding-top: 70px;
-}
+        .designation>a {
+            color: white;
+        }
 
-.single-team {
-    position: relative;
-}
+        .team-content-wrap {
+            padding-top: 70px;
+        }
 
-.single-team .team-img a {
-    position: relative;
-    display: block;
-}
+        .single-team {
+            position: relative;
+        }
 
-.single-team .team-img a::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: linear-gradient(180deg, rgba(249, 80, 0, 0) 35%, rgba(14, 14, 14, 0.89) 78%);
-    z-index: 0;
-    transition: all 0.5s linear;
-}
+        .single-team .team-img a {
+            position: relative;
+            display: block;
+        }
 
-.single-team .team-content {
-    position: absolute;
-    left: 60px;
-    bottom: 40px;
-    z-index: 5;
-    transition: all 0.3s linear;
-}
+        .single-team .team-img a::before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background: linear-gradient(180deg, rgba(249, 80, 0, 0) 35%, rgba(14, 14, 14, 0.89) 78%);
+            z-index: 0;
+            transition: all 0.5s linear;
+        }
 
-.single-team .team-content .name {
-    font-size: 22px;
-    line-height: 24px;
-    font-weight: 600;
-    position: relative;
-    z-index: 1;
-}
+        .single-team .team-content {
+            position: absolute;
+            left: 60px;
+            bottom: 40px;
+            z-index: 5;
+            transition: all 0.3s linear;
+        }
 
-.single-team .team-content .name a {
-    color: #ffffff;
-}
+        .single-team .team-content .name {
+            font-size: 22px;
+            line-height: 24px;
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
+        }
 
-.single-team .team-content .name::before {
-    content: "";
-    position: absolute;
-    height: 40px;
-    width: 20px;
-    top: 50%;
-    left: -30px;
-    transform: translateY(-50%);
-    background: linear-gradient(-180deg, #5ea7ec 0%, #e83e8c 100%);
-    z-index: -1;
-    transition: all 0.3s linear;
-}
+        .single-team .team-content .name a {
+            color: #ffffff;
+        }
 
-.single-team .team-content .designation {
-    font-size: 12px;
-    line-height: 24px;
-    position: relative;
-    z-index: 1;
-    color: #ffffff;
-}
+        .single-team .team-content .name::before {
+            content: "";
+            position: absolute;
+            height: 40px;
+            width: 20px;
+            top: 50%;
+            left: -30px;
+            transform: translateY(-50%);
+            background: linear-gradient(-180deg, #5ea7ec 0%, #e83e8c 100%);
+            z-index: -1;
+            transition: all 0.3s linear;
+        }
 
-.single-team .team-content .team-social {
-    opacity: 0;
-    visibility: hidden;
-    margin-bottom: -25px;
-    position: relative;
-    z-index: 1;
-    transition: all 0.3s linear;
-}
+        .single-team .team-content .designation {
+            font-size: 12px;
+            line-height: 24px;
+            position: relative;
+            z-index: 1;
+            color: #ffffff;
+        }
 
-.single-team .team-content .team-social .social li {
-    display: inline-block;
-}
+        .single-team .team-content .team-social {
+            opacity: 0;
+            visibility: hidden;
+            margin-bottom: -25px;
+            position: relative;
+            z-index: 1;
+            transition: all 0.3s linear;
+        }
 
-.single-team .team-content .team-social .social li+li {
-    margin-left: 10px;
-}
+        .single-team .team-content .team-social .social li {
+            display: inline-block;
+        }
 
-.single-team .team-content .team-social .social li a {
-    font-size: 14px;
-    transform: translate3d(0, 0, 0);
-    color: #ffffff;
-    transition: all 0.3s linear;
-}
+        .single-team .team-content .team-social .social li+li {
+            margin-left: 10px;
+        }
 
-.single-team:hover .team-content {
-    bottom: 90px;
-}
+        .single-team .team-content .team-social .social li a {
+            font-size: 14px;
+            transform: translate3d(0, 0, 0);
+            color: #ffffff;
+            transition: all 0.3s linear;
+        }
 
-.single-team:hover .team-content .name::before {
-    height: 145px;
-    width: 80px;
-    transform: translateY(-35%);
-}
+        .single-team:hover .team-content {
+            bottom: 90px;
+        }
 
-.single-team:hover .team-content .team-social {
-    opacity: 1;
-    visibility: visible;
-    margin-top: 10px;
-}
+        .single-team:hover .team-content .name::before {
+            height: 145px;
+            width: 80px;
+            transform: translateY(-35%);
+        }
 
-.single-team:hover .team-content .team-social .social li a:hover {
-    transform: translateY(-5px);
-}
+        .single-team:hover .team-content .team-social {
+            opacity: 1;
+            visibility: visible;
+            margin-top: 10px;
+        }
 
-.team-active .swiper-pagination {
-    position: relative;
-    margin-top: 50px;
-}
+        .single-team:hover .team-content .team-social .social li a:hover {
+            transform: translateY(-5px);
+        }
 
-.team-active .swiper-pagination .swiper-pagination-bullet {
-    margin: 0 7px;
-}
+        .team-active .swiper-pagination {
+            position: relative;
+            margin-top: 50px;
+        }
 
-.techwix-team-section-02 {
-    background: #010f31;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
+        .team-active .swiper-pagination .swiper-pagination-bullet {
+            margin: 0 7px;
+        }
 
-.techwix-team-section-03 .team-wrap {
-    margin-top: -30px;
-}
+        .techwix-team-section-02 {
+            background: #010f31;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
 
-.techwix-team-section-03 .team-wrap .single-team {
-    margin-top: 30px;
-}
+        .techwix-team-section-03 .team-wrap {
+            margin-top: -30px;
+        }
 
-.techwix-team-section-03 .team-wrap .single-team .team-img a img {
-    width: 100%;
-}
+        .techwix-team-section-03 .team-wrap .single-team {
+            margin-top: 30px;
+        }
 
-.about-content-wrap {
-    margin-left: 14px;
-    margin-top: 8px;
-}
+        .techwix-team-section-03 .team-wrap .single-team .team-img a img {
+            width: 100%;
+        }
 
-
-
-
+        .about-content-wrap {
+            margin-left: 14px;
+            margin-top: 8px;
+        }
     </style>
 </head>
 
@@ -321,7 +318,7 @@
 
         <!--header end-->
         <div class="site-main">
-            
+
 
             <!-- About Start -->
             <div class="section techwix-about-section-07">
@@ -330,54 +327,97 @@
                     <div class="row text-center">
                         <div class="col-lg-12">
                             <div class=" section-title clearfix">
-        
-                                <h2 class="title">About The Founders</h2>
+
+                                <h2 class="title">About Us</h2>
+                                <div class="title-img"><img src="images/ds-1.png" alt="underline-img"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section>
+                        <div class="container-fluid style2" style="background-color: #d3dbe3;">
+                            <div class="col-lg-12 p-lg-3">
+                                <h4 style="font-weight: 600;">India's Largest Flea Market Celebrating Contemporary Arts
+                                    and Crafts</h4>
+                                <h6>Sunday Soul Sante, since 2010, is India's largest flea market based out of Bangalore.
+                                    It is a
+                                    celebration of contemporary arts and crafts, featuring a wide variety of handmade
+                                    products from
+                                    talented artists and designers. Visitors can find everything from clothing and
+                                    accessories to
+                                    jewellery and home decor. In addition to shopping, Sunday Soul Sante also offers a
+                                    variety of
+                                    other activities, such as live music, food, and performances. It is a great place to
+                                    spend a day
+                                    with family and friends and to discover unique and handmade treasures.
+                                </h6>
+                            </div>
+                        </div>
+                    </section>
+                    <br><br><br>
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <div class=" section-title clearfix">
+
+                                <h2 class="title">Our Founders</h2>
                                 <div class="title-img"><img src="images/ds-1.png" alt="underline-img"></div>
                             </div>
                         </div>
                     </div>
                     <div class="row text-justify">
                         <div class="conatiner p-2 row">
-                            <div class="col-lg-12"><h1 class="h2 mb-4" style="font-weight: 600;">Asha Rao</h1> <hr class="grey"></div>
-                            <div class="col-md-7 p-4 p-sm-5 reveal">
-                               
-                               
-                               <div class="text text-justify">
-                               <p>Meet Asha Rao, the founder of Sunday Soul Sante.</p> <p> Asha's unwavering passion for fabric and
-                                arts has driven her to constantly regenerate her ideas, even in the face of setbacks.
-                                </p>
-                                <p> Her reward
-                                    is the success of Soul Sante. Asha Rao's foresight led to the birth of Sunday Soul Sante, a
-                                    15-year-old story rooted in the belief that aspiring artists need a platform to succeed.</p>
+                            <div class="col-lg-12">
+                                <h1 class="h2 mb-4" style="font-weight: 600;">Asha Rao</h1>
+                                <hr class="grey">
                             </div>
-                               
+                            <div class="col-md-7 p-4 p-sm-5 reveal">
+
+
+                                <div class="text text-justify">
+                                    <p>Meet Asha Rao, the founder of Sunday Soul Sante.</p>
+                                    <p> Asha's unwavering passion for fabric and
+                                        arts has driven her to constantly regenerate her ideas, even in the face of
+                                        setbacks.
+                                    </p>
+                                    <p> Her reward
+                                        is the success of Soul Sante. Asha Rao's foresight led to the birth of Sunday
+                                        Soul Sante, a
+                                        15-year-old story rooted in the belief that aspiring artists need a platform to
+                                        succeed.</p>
+                                </div>
+
                             </div>
 
                             <div class="col-md-4 p-2 show">
-                               <img src="images/gallery/asha-rao.jpg" class="img-fluid p-2" alt="">
+                                <img src="images/gallery/asha-rao.jpg" class="img-fluid p-2" alt="">
                             </div>
 
-                            
-                       </div>
+
+                        </div>
                         <div class="conatiner p-2 row">
-                            <div class="col-lg-12"><h1 class="h2 mb-4" style="font-weight: 600;">Vishal Rao</h1><hr class="grey"></div>
+                            <div class="col-lg-12">
+                                <h1 class="h2 mb-4" style="font-weight: 600;">Vishal Rao</h1>
+                                <hr class="grey">
+                            </div>
                             <div class="col-md-4 p-2 text-center showx">
-                                <img src="images/gallery/vishal.jpg" class="img-fluid p-2"  alt="">
-                             </div>
-                             <div class="col-md-7 p-4 p-sm-5 reveal">
-                                
-                                
+                                <img src="images/gallery/vishal.jpg" class="img-fluid p-2" alt="">
+                            </div>
+                            <div class="col-md-7 p-4 p-sm-5 reveal">
+
+
                                 <div class="text text-justify">
-                                    <p>Vishal Rao, an integral part of Sunday Soul Sante from its inception, brings unparalleled
+                                    <p>Vishal Rao, an integral part of Sunday Soul Sante from its inception, brings
+                                        unparalleled
                                         expertise in execution and reasoning.</p>
-                                         <p>With his vibrant personality and dedication, he ensures
-                                            smooth operations of this grand event. </p>
-                                            <p>Vishal is our go-to person for everything, embodying a
-                                                happy-go-lucky, people-oriented approach. In his free time, he enjoys playing golf, showcasing
-                                                his patience and commitment to excellence.</p>
+                                    <p>With his vibrant personality and dedication, he ensures
+                                        smooth operations of this grand event. </p>
+                                    <p>Vishal is our go-to person for everything, embodying a
+                                        happy-go-lucky, people-oriented approach. In his free time, he enjoys playing
+                                        golf, showcasing
+                                        his patience and commitment to excellence.</p>
 
                                 </div>
-                             </div>
+                            </div>
                         </div>
                     </div>
 
@@ -385,141 +425,76 @@
 
                     <div class="row">
                         <div class="conatiner p-2 row">
-                            <div class="col-lg-12"><h1 class="h2 mb-4" style="font-weight: 600;">Harish Rao</h1>
-                                <hr class="grey"></div>
-                            <div class="col-md-7 p-4 p-sm-5 reveal">
-                               
-                               <div class="text text-justify">
-                                <p>
-                                    Harish Rao, with over 15 years of experience in Sales & Marketing and
-                                    Business Development, is a driving force behind the growth of brands.</p>
-    
-                                <p> As the driving force behind Sunday Soul Sante's marketing, sponsorships, and alliances, Harish has established partnerships with renowned brands such as United Breweries, Times Of India, TVS, and Amazon.
-                                    
-                                    </p>
-    
-                                <p> He focuses on creating long-term partnerships with each sponsor while coordinating promotional campaigns with multiple brands. He believes that the journey is as important as the destination in both life and business.
-                                    
-                                    
-                                </p>
+                            <div class="col-lg-12">
+                                <h1 class="h2 mb-4" style="font-weight: 600;">Harish Rao</h1>
+                                <hr class="grey">
                             </div>
-                               
+                            <div class="col-md-7 p-4 p-sm-5 reveal">
+
+                                <div class="text text-justify">
+                                    <p>
+                                        Harish Rao, with over 15 years of experience in Sales & Marketing and
+                                        Business Development, is a driving force behind the growth of brands.</p>
+
+                                    <p> As the driving force behind Sunday Soul Sante's marketing, sponsorships, and
+                                        alliances, Harish has established partnerships with renowned brands such as
+                                        United Breweries, Times Of India, TVS, and Amazon.
+
+                                    </p>
+
+                                    <p> He focuses on creating long-term partnerships with each sponsor while
+                                        coordinating promotional campaigns with multiple brands. He believes that the
+                                        journey is as important as the destination in both life and business.
+
+
+                                    </p>
+                                </div>
+
                             </div>
 
                             <div class="col-md-4 p-2 text-center show">
-                               <img src="images/gallery/harry.jpg" class="img-fluid p-2"  alt="">
+                                <img src="images/gallery/harry.jpg" class="img-fluid p-2" alt="">
                             </div>
-                       </div>
-                       
+                        </div>
+
                         <div class="conatiner p-2 row">
-                            <div class="col-lg-12"><h1 class="h2 mb-4" style="font-weight: 600;">Karan Rao</h1>
-                                <hr class="grey"></div>
+                            <div class="col-lg-12">
+                                <h1 class="h2 mb-4" style="font-weight: 600;">Karan Rao</h1>
+                                <hr class="grey">
+                            </div>
                             <div class="col-md-4 p-2 text-center showx">
-                                <img src="images/gallery/karan.jpg" class="img-fluid p-2"  alt="">
-                             </div>
-                             <div class="col-md-7 p-4 p-sm-5 reveal">
-                                
+                                <img src="images/gallery/karan.jpg" class="img-fluid p-2" alt="">
+                            </div>
+                            <div class="col-md-7 p-4 p-sm-5 reveal">
+
                                 <div class="text text-justify">
-                                   <p>
-                                    Karan Rao, a film producer with over five years of experience, brings essential impetus to the
-                                    Sunday Soul Sante team.</p>  <p>With a keen eye for detail and a passion for providing unique festival
-                                    experiences, Karan handles the creative conceptualization, logistical planning, and execution for all Funday Events properties.
-                                    
-                                   </p> 
+                                    <p>
+                                        Karan Rao, a film producer with over five years of experience, brings essential
+                                        impetus to the
+                                        Sunday Soul Sante team.</p>
+                                    <p>With a keen eye for detail and a passion for providing unique festival
+                                        experiences, Karan handles the creative conceptualization, logistical planning,
+                                        and execution for all Funday Events properties.
+
+                                    </p>
 
                                     <p>
                                         He is a staunch supporter of the Indian independent music scene,
-ensuring its prominence at Sunday Soul Sante. Karan's enthusiasm for fitness and sports
-translates into a healthy and energetic atmosphere within the entire SSS team.
+                                        ensuring its prominence at Sunday Soul Sante. Karan's enthusiasm for fitness and
+                                        sports
+                                        translates into a healthy and energetic atmosphere within the entire SSS team.
                                     </p>
                                 </div>
-                             </div>
-                             
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <hr class="line">
+
                 <br>
                 <!--service-section.style2 start-->
-                <section class="ttm-row service-section style2 bg-layer bg-layer-equal-height break-991-colum clearfix">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-5 showx">
-                                <!-- col-bg-img-three -->
-                                <div
-                                    class="col-bg-img-three ttm-col-bgimage-yes ttm-bg ttm-left-span res-991-mt-0 mt_60">
-                                    <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
-                                    <div class="layer-content">
-                                    </div>
-                                </div><!-- col-bg-img-three end-->
-                                <img src="images/bg-image/col-bgimage-3.jpg" class="ttm-equal-height-image"
-                                    alt="bg-image">
-                            </div>
-                            <div class="col-lg-7 col-md-12">
-                                <!-- about-content -->
-                                <div
-                                    class="about-content ttm-bg ttm-col-bgcolor-yes ttm-right-span ttm-bgcolor-skincolor padding-15">
-                                    <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
-                                    <div class="layer-content">
-                                        <!-- section title -->
-                                        <div class="section-title with-desc clearfix reveal">
-                                            <div class="title-header">
 
-                                                <h2 class="title show">About Us</h2>
-                                            </div>
-                                            <h3> India's Largest Flea Market Celebrating Contemporary Arts and Crafts
-                                            </h3>
-                                            <p class="new"><i class="ti ti-check-box ttm-textcolor-skincolor"></i>
-                                                Sunday
-                                                Soul Sante, India's largest flea market situated in Bangalore since
-                                                2010, is
-                                                a vibrant celebration of contemporary arts and crafts. <br><br><i
-                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> It showcases an
-                                                extensive collection of handmade products ranging from clothing and
-                                                accessories to jewelry and home decor. <br><br><i
-                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> Beyond
-                                                shopping,
-                                                the event offers live music, performances, and delectable food options,
-                                                making it an ideal outing for friends and family. <br><br>
-
-                                                <i class="ti ti-check-box ttm-textcolor-skincolor"></i> This market is a
-                                                unique opportunity to break away from the ordinary and be inspired by
-                                                the
-                                                inventive ideas of talented artists. <br> <br><i
-                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> From clothing
-                                                to
-                                                accessories, jewelry to paintings, visitors can hunt for exceptional
-                                                treasures at remarkable prices. <br><br><i
-                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> The event's
-                                                lively
-                                                atmosphere is further enriched by live shows and performances, ensuring
-                                                a
-                                                captivating experience for all the senses. <br><br><i
-                                                    class="ti ti-check-box ttm-textcolor-skincolor"></i> Sunday Soul
-                                                Sante
-                                                is a must-visit for those seeking a blend of creativity, entertainment,
-                                                and
-                                                culinary delights – an extraordinary escapade that shouldn't be missed.
-                                            </p>
-
-
-
-                                        </div><!-- section title end -->
-
-                                    </div>
-                                </div><!-- about-content end-->
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <!--service-section.style2 end-->
-
-
-
-
-
-
-
             </div><!-- site-main end -->
 
             <!--footer-->
@@ -571,31 +546,39 @@ translates into a healthy and energetic atmosphere within the entire SSS team.
                     <div class="foot-second">
                         <div class="row text-center">
                             <div class="col-md-12">
-                                <a href="about-us.html" style="text-decoration: none;"><h5>About US</h5></a>
+                                <a href="about-us.html" style="text-decoration: none;">
+                                    <h5>About US</h5>
+                                </a>
                             </div>
                             <div class="col-sm-6">
-                                <h5><a id="events-link" href="our-event.html" style="text-decoration: none;">Events</a></h5>
-                                
+                                <h5><a id="events-link" href="our-event.html" style="text-decoration: none;">Events</a>
+                                </h5>
+
                             </div>
                             <div class="col-sm-6">
-                                <h5><a id="partnership-link" href="cities.html" style="text-decoration: none;">Cities</a></h5>
-                                
+                                <h5><a id="partnership-link" href="cities.html"
+                                        style="text-decoration: none;">Cities</a></h5>
+
                             </div>
                             <div class="col-sm-6">
-                                <h5><a  id="community-link" href="news.html" style="text-decoration: none;">In The News</a></h5>
-                                
+                                <h5><a id="community-link" href="news.html" style="text-decoration: none;">In The
+                                        News</a></h5>
+
                             </div>
                             <div class="col-sm-6">
-                                <h5><a href="blog-grid.html" id="company-link" style="text-decoration: none;">Blogs</a></h5>
-                                
+                                <h5><a href="blog-grid.html" id="company-link" style="text-decoration: none;">Blogs</a>
+                                </h5>
+
                             </div>
                             <div class="col-sm-6">
-                                <h5><a href="gallery.html" id="company-link" style="text-decoration: none;">Gallery</a></h5>
-                                
+                                <h5><a href="gallery.html" id="company-link" style="text-decoration: none;">Gallery</a>
+                                </h5>
+
                             </div>
                             <div class="col-sm-6">
-                                <h5><a href="contact-us.html" id="company-link" style="text-decoration: none;">Contact Us</a></h5>
-                                
+                                <h5><a href="contact-us.html" id="company-link" style="text-decoration: none;">Contact
+                                        Us</a></h5>
+
                             </div>
                         </div>
                     </div>
